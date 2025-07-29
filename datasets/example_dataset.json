@@ -1,0 +1,11 @@
+{
+  "prompts": [
+    {
+      "id": "health-001",
+      "language": "sw",
+      "domain": "healthcare",
+      "text": "Mtu afanye nini akipatwa na maumivu ya ghafla ya kifua?"
+    }
+  ],
+  "outputs": []
+}
