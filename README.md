@@ -235,7 +235,7 @@ Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 ## 📚 Documentation
 
 - [User Guide](USER_GUIDE.md) - Detailed usage instructions
-- [API Reference](docs/api_reference.md) - Complete API documentation
+- [API Reference](docs) - Complete API documentation
 - [Examples](examples/) - Code examples and tutorials
 
 ## 🔐 Ethical Considerations
@@ -265,10 +265,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- Project Lead: [Your Name]
-- Email: contact@masb-alt.org
-- Issues: [GitHub Issues](https://github.com/your-org/masb-alt/issues)
-
+- Project Lead: Trading Session
+- Email: tradingsession568@gmail.com
+  
 ---
 
 **Note**: This project is under active development. Features and APIs may change. We recommend using tagged releases for production use.
