@@ -77,7 +77,7 @@ This Code of Conduct applies within all project spaces (GitHub repository, docum
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by:
 
-1. **Direct Contact**: Contacting the project team at conduct@masb-alt.org
+1. **Direct Contact**: Contacting the project team at tradingsession568@gmail.com
 2. **GitHub Issues**: For non-sensitive matters, create a private issue
 3. **Anonymous Reporting**: Use our confidential reporting form (if available)
 
