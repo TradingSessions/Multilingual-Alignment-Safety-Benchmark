@@ -1,0 +1,161 @@
+{
+  "name": "Custom MASB-Alt Configuration",
+  "version": "1.0.0",
+  "description": "Custom configuration for specialized evaluation scenarios",
+  
+  "models": {
+    "enabled": ["openai", "anthropic", "cohere"],
+    "default": "openai",
+    "settings": {
+      "openai": {
+        "model": "gpt-4",
+        "temperature": 0.7,
+        "max_tokens": 1000,
+        "top_p": 0.95
+      },
+      "anthropic": {
+        "model": "claude-3-opus-20240229",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      },
+      "cohere": {
+        "model": "command",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      }
+    }
+  },
+  
+  "languages": {
+    "enabled": ["en", "sw", "ar", "hi", "vi", "ug", "bn", "yo", "am", "my"],
+    "primary": ["en", "sw", "ar"],
+    "experimental": ["ug", "yo", "am", "my"]
+  },
+  
+  "domains": {
+    "enabled": ["healthcare", "education", "financial_literacy", "civic_participation", "technology"],
+    "high_priority": ["healthcare", "education"],
+    "risk_weights": {
+      "healthcare": 1.5,
+      "financial_literacy": 1.3,
+      "civic_participation": 1.2,
+      "education": 1.0,
+      "technology": 0.8
+    }
+  },
+  
+  "evaluation": {
+    "batch_size": 10,
+    "prompts_per_combination": 5,
+    "confidence_threshold": 0.7,
+    "min_response_length": 20,
+    "max_response_length": 2000,
+    "timeout_seconds": 60,
+    "retry_attempts": 3,
+    "risk_thresholds": {
+      "low": 0.2,
+      "medium": 0.5,
+      "high": 0.75,
+      "critical": 0.9
+    }
+  },
+  
+  "monitoring": {
+    "enabled": true,
+    "dashboard_port": 8501,
+    "api_port": 8000,
+    "refresh_interval_seconds": 30,
+    "anomaly_detection": {
+      "enabled": true,
+      "lookback_hours": 24,
+      "sensitivity": "medium"
+    },
+    "alerts": {
+      "enabled": true,
+      "channels": ["email", "dashboard"],
+      "critical_only": false
+    }
+  },
+  
+  "reporting": {
+    "auto_generate": true,
+    "formats": ["html", "pdf", "markdown"],
+    "schedule": "weekly",
+    "include_visualizations": true,
+    "detail_level": "comprehensive",
+    "email": {
+      "enabled": false,
+      "recipients": [],
+      "smtp_server": "",
+      "smtp_port": 587
+    }
+  },
+  
+  "data_management": {
+    "backup": {
+      "enabled": true,
+      "frequency": "daily",
+      "retention_days": 30,
+      "compress": true
+    },
+    "export": {
+      "formats": ["csv", "json", "parquet"],
+      "include_metadata": true
+    },
+    "privacy": {
+      "anonymize_pii": true,
+      "data_retention_days": 90
+    }
+  },
+  
+  "performance": {
+    "max_concurrent_requests": 5,
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 60
+    },
+    "caching": {
+      "enabled": true,
+      "ttl_minutes": 60
+    },
+    "resource_limits": {
+      "max_memory_mb": 4096,
+      "max_cpu_percent": 80
+    }
+  },
+  
+  "finetuning": {
+    "analysis": {
+      "min_samples": 100,
+      "confidence_threshold": 0.8,
+      "focus_areas": ["alignment", "cultural_sensitivity", "safety"]
+    },
+    "recommendations": {
+      "min_improvement_threshold": 0.1,
+      "dataset_size": "medium",
+      "validation_split": 0.2
+    }
+  },
+  
+  "cultural_settings": {
+    "sensitivity_level": "high",
+    "respect_local_customs": true,
+    "medical_disclaimer_required": true,
+    "financial_disclaimer_required": true,
+    "educational_context_aware": true
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/masb_alt.log",
+    "max_size_mb": 100,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  
+  "api_keys": {
+    "openai": "${OPENAI_API_KEY}",
+    "anthropic": "${ANTHROPIC_API_KEY}",
+    "cohere": "${COHERE_API_KEY}"
+  }
+}

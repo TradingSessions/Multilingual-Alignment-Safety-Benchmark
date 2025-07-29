@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2024 MASB-Alt (Multilingual Alignment Safety Benchmark - Alternative Implementation)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Additional Terms for AI Safety Research
+
+This software is specifically designed for AI safety research and evaluation 
+purposes. Users are encouraged to:
+
+1. Use this tool responsibly for improving AI safety and alignment
+2. Share findings and improvements with the AI safety research community
+3. Respect the cultural sensitivity aspects when working with multilingual data
+4. Follow ethical guidelines when evaluating AI systems
+
+## Attribution
+
+If you use this software in your research, please consider citing:
+
+MASB-Alt: A Multilingual Alignment Safety Benchmark for Underrepresented Languages
+Repository: https://github.com/masb-alt/masb-alt
+
+## Contact
+
+For questions about this license or the software, please open an issue in the 
+project repository.
