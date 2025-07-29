@@ -137,7 +137,7 @@ We believe in restorative justice and learning from mistakes. After appropriate 
 
 For questions about this Code of Conduct:
 
-- **Primary Contact**: tradingsession568@gmail.com
+- **Primary Contact**:  tradingsession568@gmail.com
 - **Project Maintainers**: See [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Alternative Contact**: Create a private issue on GitHub
 
